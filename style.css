@@ -33,7 +33,7 @@ a:hover {
 
 .image-circle {
     margin: 0 auto 35px;
-    width: 30%; 
+    width: 70%; 
     max-width: 165px;
     border-radius: 50%; 
     box-shadow: 5px 5px 3px #AAB99A;
@@ -43,7 +43,7 @@ a:hover {
     height: auto;
 }
 
-/* Container principal */
+
 .container {
     margin-top: 40px;
     display: flex;
@@ -54,7 +54,7 @@ a:hover {
     padding: 0 20px; /* Ajout de marges latérales */
 }
 
-/* Cartes principales */
+
 .white-card, #left, #right {
     background: white;
     padding: 50px;
@@ -66,12 +66,11 @@ a:hover {
     margin-right: auto;
 }
 
-/* Disposition flex des cartes */
+
 .container-flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
     padding: 0 20px;
 }
 
@@ -80,14 +79,13 @@ a:hover {
     max-width: 500px;
 }
 
-/* Conteneur spécifique pour "Mes hobbies" et "Mes skills" */
+
 .container-hobbies-skills {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 5px; /* Réduction supplémentaire de l'espacement entre les blocs */
-    margin-bottom: 50px; /* Ajout d'un espace en bas */
-    padding: 0 20px; /* Ajout de marges latérales */
+    margin-bottom: 50px; 
+    padding: 0 20px; 
 }
 
 #hobbies, #skills {
@@ -95,7 +93,7 @@ a:hover {
     max-width: 500px;
 }
 
-/* Listes */
+
 .list-inline {
     list-style: none;
     text-align: center;
@@ -130,13 +128,13 @@ a:hover {
     list-style: none;
 }
 
-/* Images responsives */
+
 img {
     max-width: 100%;
     height: auto;
 }
 
-/* Media Queries pour la responsivité */
+
 @media (max-width: 768px) {
     .container-flex {
         flex-direction: column;
