@@ -33,9 +33,9 @@ a:hover {
 
 .image-circle {
     margin: 0 auto 35px;
-    width: 165px;
-    max-width: 100%; /* Rend l'image responsive */
-    border-radius: 50%; /* Assure un aspect circulaire */
+    width: 30%; 
+    max-width: 165px;
+    border-radius: 50%; 
     box-shadow: 5px 5px 3px #AAB99A;
     display: flex;
     align-items: center;
